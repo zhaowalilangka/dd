@@ -1,0 +1,32 @@
+{
+
+    "name": "diszz/phpqrcode",
+
+
+    "type": "php",
+
+    "description": "The libs integration for the Yii framework",
+    "keywords": ["phpqrcode", "libs", "helper"],
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/diszz/phpqrcode/issues",
+        "wiki": "https://github.com/diszz/phpqrcode/wiki",
+        "source": "https://github.com/diszz/phpqrcode"
+    },
+    "authors": [
+        {
+            "name": "xulihui",
+            "email": "xulihui1985@126.com"
+        }
+    ],
+
+
+    
+
+    
+    "autoload": {
+        "psr-4": {
+            "diszz\\phpqrcode\\": ""
+        }
+    }
+}

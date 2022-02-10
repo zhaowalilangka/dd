@@ -1,0 +1,58 @@
+{
+    "name": "ffm/wms_boos_api",
+    "authors": [
+        {
+           "name":"wms_boos_api"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "ext-openssl": "*",
+        "guzzlehttp/psr7": "^1.6.1",
+        "guzzlehttp/guzzle": "^6.4.1",
+        "aliyun/aliyun-mns-php-sdk": ">=1.0.0",
+        "mpdf/mpdf": "^8.0",
+        "swiftmailer/swiftmailer": "^6.0",
+        "aliyuncs/oss-sdk-php": "^2.3",
+        "webgeeker/validation": "^0.5.3",
+        "picqer/php-barcode-generator": "^2.0",
+        "symfony/serializer": "^5.2",
+        "symfony/options-resolver": "^5.2",
+        "react/promise": "^2.8",
+        "phpoffice/phpexcel": "^1.8",
+        "diszz/phpqrcode": "^1.1",
+        "illuminate/support": "^7.30",
+        "elasticsearch/elasticsearch": "^7.10",
+        "phpoffice/phpspreadsheet": "^1.16",
+        "setasign/fpdf": "^1.8",
+        "setasign/fpdi": "^2.3",
+        "flashwarehouse/ffmbase": "dev-develop"
+    },
+     "require-dev": {
+        "codeception/codeception": "^3.1",
+        "phpunit/phpunit": "^8.5",
+        "squizlabs/php_codesniffer": "3.*" 
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@codeup.aliyun.com:flashexpress/ffm/be/ffm_base.git"
+        }
+    ],
+     "autoload": {
+        "psr-4": {
+            "": ""
+        },  
+        "psr-0": {
+            "": ""
+        },  
+       "files": [
+            "library/lazop/LazopSdk.php"
+        ]
+    },
+     "archive": {
+        "exclude": [
+            "/bin"
+        ]
+    }
+}
